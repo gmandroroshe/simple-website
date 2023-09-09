@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .my-4 {
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
+}
+.border-0 {
+    border: 0!important;
+}
+.shadow {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.15)!important;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb),0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    word-wrap: break-word;
+    background-clip: border-box;
+    background-color: var(--bs-card-bg);
+    border: var(--bs-card-border-width)solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    color: var(--bs-body-color);
+    display: flex;
+    flex-direction: column;
+    height: var(--bs-card-height);
+    min-width: 0;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.container, .container-fluid, .container-md {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    width: 100%;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    margin: 0;
+    text-align: var(--bs-body-text-align);
+}
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+}
+:root {
+    --bs-blue: #337ab7;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #337ab7;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 51,122,183;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-primary-text-emphasis: #143149;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: #055160;
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #d6e4f1;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+Show All Properties (66 more)
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+  </style>
+</head>
+<body>
+  <div class="card my-4 border-0 shadow">
+    <div class="card-header bg-primary">
+      <h2 id="title-h1" class="fs-5 fw-bold text-white text-uppercase">Search results for: hacker</h2></div>
+      <div class="card-body"><div id="resdata" class="row row-cols-2 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 g-4"><div class="col">
+        <div class="card h-100 border-0 shadow"><a href="/film/bikini-hackers-1630854914/" class="rounded poster"><img src="https://img.soap2dayhd.co/t-max/w_156/h_234/bikini-hackers-1630854914.jpg" class="lazy card-img-top"><div class="card-body item-title text-center p-1"><h3 class="card-title text-uppercase fs-6 m-0">Bikini Hackers</h3></div></a></div></div><div class="col"><div class="card h-100 border-0 shadow"><a href="/film/2177-the-san-francisco-love-hacker-crimes-28959/" class="rounded poster"><img src="https://img.soap2dayhd.co/t-max/w_156/h_234/2177-the-san-francisco-love-hacker-crimes-28959.jpg" class="lazy card-img-top"><div class="card-body item-title text-center p-1"><h3 class="card-title text-uppercase fs-6 m-0">2177: The San Francisco Love Hacker Crimes</h3></div></a></div></div><div class="col"><div class="card h-100 border-0 shadow"><a href="/film/the-hacker-wars-28160/" class="rounded poster"><img src="https://img.soap2dayhd.co/t-max/w_156/h_234/the-hacker-wars-28160.jpg" class="lazy card-img-top"><div class="card-body item-title text-center p-1"><h3 class="card-title text-uppercase fs-6 m-0">The Hacker Wars</h3></div></a></div></div><div class="col"><div class="card h-100 border-0 shadow"><a href="/film/hackers-game-redux-26725/" class="rounded poster"><img src="https://img.soap2dayhd.co/t-max/w_156/h_234/hackers-game-redux-26725.jpg" class="lazy card-img-top"><div class="card-body item-title text-center p-1"><h3 class="card-title text-uppercase fs-6 m-0">Hackers Game Redux</h3></div></a></div></div><div class="col"><div class="card h-100 border-0 shadow"><a href="/film/hacker--17498/" class="rounded poster"><img src="https://img.soap2dayhd.co/t-max/w_156/h_234/hacker--17498.jpg" class="lazy card-img-top"><div class="card-body item-title text-center p-1"><h3 class="card-title text-uppercase fs-6 m-0">Hacker</h3></div></a></div></div><div class="col"><div class="card h-100 border-0 shadow"><a href="/film/hackers-15246/" class="rounded poster"><img src="https://img.soap2dayhd.co/t-max/w_156/h_234/hackers-15246.jpg" class="lazy card-img-top"><div class="card-body item-title text-center p-1"><h3 class="card-title text-uppercase fs-6 m-0">Hackers</h3></div></a></div></div></div><div id="pager" class="text-center py-4 m-auto"></div></div></div>
+</body>
+</html>
